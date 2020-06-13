@@ -23,14 +23,14 @@
     
     .steps-box { margin-top: 10px; }
     .steps-box:last-child { margin-top: 10px; }
-    .works-steps { margin-bottom: 40px;}
+    .works-step { margin-bottom: 40px;}
     .works-step:last-of-type { margin-bottom: 60px; }
     
     .app-screen {width: 50%;}
     
     .icon-small {
         width: 17px;
-        margin-right: 10px;
+        margin-right: 5px;
     }
     .city-feature {font-size: 90%; }
     
@@ -66,6 +66,9 @@
         margin-left: 0%;
     }
     
+    .app-screen {width: 40%;}
+    .steps-box:first-child { text-align: center;}
+    
     .works-step div {
         
         height: 40px;
@@ -73,18 +76,17 @@
         margin-right: 15px;
         padding: 4px;
         font-size: 120%;
-       
 }
     
-    .works-step { margin-bottom: 20px;}
+    .works-step {margin-bottom: 20px;}
     .works-step:last-of-type { margin-bottom: 20px; }
-}
+
 
 
 
 
 /* Small phones: from 0 to 480px */
-@media only sreen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
     section { padding: 25px 0;}
     .contact-form {width: 100%; }
     
