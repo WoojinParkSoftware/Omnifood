@@ -95,6 +95,12 @@ $(document).ready(function () {
             icon.removeClass('ion-close-round');
         }
 
+        /* Maps */
+        new GMaps({
+            div: '#map',
+            lat: -12.043333,
+            lng: -77.028333
+        });
     });
 
 });
